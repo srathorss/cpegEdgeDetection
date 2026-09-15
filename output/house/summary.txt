@@ -1,0 +1,25 @@
+Edge Detection Summary
+==========================================
+Timestamp    : 2026-05-10 11:50:35
+Input        : C:\Users\joeyb\CPEG324\EdgeDetection\Ed_code\input\house.jpg
+Processed    : 256x256 grayscale
+Method(s)    : both
+
+[Sobel]
+  threshold      : 80
+  output_size    : 254x254
+  edge_pixels    : 27352/64516 (42.4%)
+  verification   : PASS
+
+[Roberts]
+  threshold      : 30
+  output_size    : 255x255
+  edge_pixels    : 61773/65025 (95.0%)
+  verification   : PASS
+
+Output files
+  gray_input.png     - grayscale version of the input
+  sobel_edges.png    - binary edge map from Verilog
+  sobel_golden.png   - reference from Python golden model
+  roberts_edges.png  - gradient magnitude from Verilog
+  roberts_golden.png - reference from Python golden model
