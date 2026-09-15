@@ -1,4 +1,4 @@
-# Edge Detection — Roberts Cross & Sobel (CPEG 324)
+# Edge Detection — Roberts Cross & Sobel
 
 Hardware implementations of two edge detection filters in Verilog, simulated with Icarus Verilog and verified against Python reference models.
 
